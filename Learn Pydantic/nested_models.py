@@ -31,7 +31,7 @@ temp = patient1.model_dump(exclude_unset=True) # jo fields set nhi kiye gay duri
 print(temp)
 print(type(temp))
 
-# Convert to dictionary
+# Convert to json
 temp2 = patient1.model_dump_json()
 print(temp2)
 print(type(temp2))
